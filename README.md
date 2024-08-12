@@ -1,7 +1,3 @@
-Here’s a combined version of the README description and the implementation steps for the assignment:
-
----
-
 # ReachInbox.ai Assignment
 
 This assignment involves building a web application with key functionalities including a login page, onebox screen, keyboard shortcuts, a custom text editor, and support for light and dark modes. You will use React.js, Tailwind CSS, and Next.js to develop the application, with API integrations for data fetching and interaction.

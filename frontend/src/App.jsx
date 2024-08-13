@@ -1,16 +1,10 @@
-import React, { useState } from "react";
-import Sidebar from "./components/Sidebar"; // Adjust the import path as needed
-import Hero from "./components/Hero";
+import React from 'react'
+import Layout from './components/Layout'
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
-
   return (
-    <div className={darkMode ? "dark" : ""}>
-      <Sidebar darkMode={darkMode} setDarkMode={setDarkMode} />
-      {/* <Hero darkMode={darkMode} setDarkMode={setDarkMode} /> */}
-    </div>
-  );
+    <div><Layout/></div>
+  )
 }
 
-export default App;
+export default App
